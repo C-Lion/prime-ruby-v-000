@@ -3,7 +3,7 @@ def prime?(number)
       return false;
   elsif
    # Check from 2 to n-1 
-   (2..num-1).to_a.all? do |possible_factors|
+   (2..num-1).to_a.all? do |possible_factor|
      if (number%i == 0)
        return false;
   else
