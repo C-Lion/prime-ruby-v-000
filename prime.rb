@@ -3,6 +3,7 @@ def prime?(number)
     return false;
  else
    # Check from 2 to n-1
+   
    number.each do 
     for (int i=2; i<number; i++)
         if (number%i == 0)
