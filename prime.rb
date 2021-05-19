@@ -6,7 +6,7 @@ def prime?(number)
    # Check from 2 to n-1 
    (2..number-1).to_a.all? do |possible_factor|
      number % i == 0
-     return true  
+     return false  
    end
   end
   
