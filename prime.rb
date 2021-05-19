@@ -1,4 +1,5 @@
 def prime?(number)
+  if num < 0 or num == 0 or num == 1
   if (number <= 1)  
       return false;
   elsif
